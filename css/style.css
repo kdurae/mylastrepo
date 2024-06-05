@@ -1,0 +1,290 @@
+/*Nav Bar*/
+.navigation-bar {
+    width: 100%;  
+    height: 75px; 
+    background-color:#081C27; 
+}
+.logo {
+    display: inline-block;
+    float:left;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+}
+.title{
+    display:inline-block;
+    margin-top:30px;
+    color:white;
+
+}
+.nav{
+    display:inline-block;
+    color:white;
+    float: right;
+    padding:15px;
+    margin-right:20px;
+    margin-bottom: 0px;
+}
+/*Hero*/
+.herogrid{
+    padding:0%;
+    width: 100%;
+    height: 370px;
+    display: grid;
+    background-color: #0F2E3F;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:80% 20%;
+    grid-template-areas:
+    "info info heroimg"
+    "bottombar bottombar bottombar"
+}
+    .spacer{
+        height:5px;
+        background-color: #F49F61;
+        width: 400px;
+    }
+
+    .info{
+        grid-area: info;
+        margin-top:50px;
+        margin-left: 50px;
+        color: white;
+        background-color:#0F2E3F ;
+        width: 100%;
+    }
+
+    .seemore{
+        text-decoration: underline;
+    }
+    .para{
+        width:70%
+    }
+
+    .resume{
+        background-color: #F49F61;
+        color: white;
+        padding: 20px;
+        border: none;
+    }
+
+    .heroimg{
+        grid-area: heroimg;
+    }
+
+
+    .portrait{
+        margin-top: 50px;
+        width: 250px;
+        height: auto;
+    }
+
+/*Education*/
+.pause{
+    background-color: #081C27;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 100%;
+}
+.educationGrid{
+    background-color: #0F2E3F;
+    color:white;
+    padding:0%;
+    padding-bottom: 0px;
+    margin: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:100%;
+    grid-template-areas:
+    "educationParagraph educationParagraph eduimage"
+
+}
+    #educationParagraph{
+        margin-top: 25px;
+        grid-area:educationParagraph;
+        width:70%;
+        height:100%;
+        margin-left: 50px;
+    }
+
+    .spacer2{
+        background-color: #F49F61;
+        height:5px;
+        width:400px;
+    }
+
+    .students{
+        margin-top: 15px;
+        width:500px;
+        height:auto;
+        margin-right: 50px;
+    }
+
+    #eduimage{
+        margin:0 auto;
+    }
+
+
+/*UX/UI Images*/
+.pause2{
+    background-color: #081C27;
+    color: white;
+    margin-top:0;
+    margin-bottom: 0px;
+    
+    height: 150px;
+    width: 100%;
+}
+#pause2break{
+    height: 20px;
+    margin-left: 50px;
+}
+#uxui{
+    margin-left: 50px;
+}
+.uxTitle{
+    font-family: jomolhari-regular;
+}
+
+
+#box1{
+    display: inline-block;
+}
+#box2{
+    display: inline-block;
+}
+#box3{
+    display: inline-block;
+}
+.boxback{
+    background-color: #081C27;
+    height: 600px;
+    width: 100%;
+}
+.boxback2{
+    background-color: #081C27;
+    height: 800 px;
+    width: 100%;
+}
+
+.uxbox{
+    margin-top: 0px;
+    margin-left: 50px;
+    display: inline-block;
+    height:450px;
+    width: 340px;
+    background-color: #0F2E3F;
+    color: white;
+    padding: px;
+
+}
+#boxtext{
+    margin-left: 40px;
+}
+.spacer3{
+    height:5px;
+    background-color: #F49F61;
+    width: 200px;
+}
+.boximg{
+    align-self: center;
+    width:200px;
+    margin-left: 70px;
+    margin-top:40px;
+
+}
+
+
+.pause{
+    background-color: #081C27;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    width: 100%;
+}
+
+/*Footer Area*/
+.footerGrid{
+    background-color: #0F2E3F;
+    color:white;
+    padding:0%;
+    padding-bottom: 0px;
+    margin: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:100%;
+    grid-template-areas:
+    "portrait contact blank"
+
+}
+
+    .portrait{
+        display: grid;
+        grid-area: portrait;
+        margin-left: 50px;
+    }
+        .footerimg{
+        width:300px;
+        height: auto;
+        }
+
+    .contact{
+        color: white;
+        margin-top: 50px;
+    }
+
+
+/*CSS Site Standards*/
+
+h1{
+    font-family:jomolhari-regular;
+}
+h2{
+    font-family:jomolhari-regular;
+}
+h3{
+
+    font-family: jomolhari-regular;
+    font-size: 25px;
+}
+p{
+    font-family: jost;
+}
+h4{
+    font-family: jost;
+    font-size:20px;
+}
+
+/*Font CSS*/
+
+.jomolhari-regular {
+    font-family: "Jomolhari", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jost {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
